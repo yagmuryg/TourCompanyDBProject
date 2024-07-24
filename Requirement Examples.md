@@ -1,0 +1,6 @@
+| Business Requirement (BR)                                                  | Functional Requirement (FR)                                                                 |
+|----------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
+| A tour must include at least 3 locations.                                 | The system should allow selecting a minimum of 3 locations when creating a tour. If fewer than 3 locations are selected, the system should prevent the creation of the tour. |
+| The tour fee is the sum of the location fees it includes.                 | The system should calculate the tour price by summing up the costs of the selected locations for the tour.                                               |
+| If the locations selected for the tour are updated by the user, the tour price should also be updated. | When the user updates the locations selected for the tour, the system shall automatically recalculate and update the tour price accordingly. |
+| If the customer is over 65 years of age, a 25% discount is applied to the tour price. | The system shall automatically apply a 25% discount to the tour price if the customer's age is over 65 years.                                            |
